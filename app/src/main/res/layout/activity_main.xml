@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="123dp"
+        android:layout_height="121dp"
+        android:src="@drawable/logo1" />
+
+
+    <TextView
+        android:layout_width="531dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coolvetica_rg_it"
+        android:gravity="center"
+        android:text="TEACHER PROFILE AND STUDENT"
+        android:textColor="#850AD1"
+        android:textSize="27dp"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:layout_width="383dp"
+        android:layout_height="92dp" />
+
+    <Button
+        android:id="@+id/buttonprofileguru"
+        android:layout_width="252dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/costum1"
+        android:text="VISI-MISI SMKN1SAYUNG"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/buttonrequestguru"
+        android:layout_width="252dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/costum2"
+        android:text="Profile Guru "
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/buttonprofilesmk"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom3"
+        android:text="PROFILE MURID "
+        android:textColor="#ffff"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="383dp"
+        android:layout_height="184dp" />
+
+    <TextView
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Jl. Raya Semarang-Demak KM 14 (Onggorawe) Sayung-Demak Kode pos 59563"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+</LinearLayout>

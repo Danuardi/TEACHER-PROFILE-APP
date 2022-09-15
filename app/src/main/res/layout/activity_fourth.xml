@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="253dp"
+        android:layout_height="203dp"
+        android:layout_gravity="center"
+        android:src="@drawable/foto" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:text="PROFILE MURID SMKN1SAYUNG"
+        android:fontFamily="@font/coolvetica_rg_it"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="NAMA : Danuardi W.P.L                                                     "
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="LAHIR : SEMARANG,15 JUNI 2006                                 "
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="ALAMAT : JLN.kapastimur VIII BlokG.1061,Semarang"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="ASAL SEKOLAH : SMKN1SAYUNG                                 "
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="KELAS :XI PPLG2                                                             "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_horizontal"
+        android:textSize="13dp"
+        android:text="  JURUSAN : PPLG(Pengembangan Perangkat Lunak dan Gim)   "
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
